@@ -128,7 +128,7 @@ const Sidebar = ({
           }}
         >
           <Box width="100%">
-            <Box m="1.5rem 2rem 1.5rem 3rem">
+            <Box m="1rem 2rem 1rem 3rem">
               <FlexBetween color={theme.palette.secondary.main}>
                 <Box display="flex" alignItems="center" gap="0.5rem">
                   <Typography variant="h4" fontWeight="bold">
@@ -150,7 +150,7 @@ const Sidebar = ({
                       key={text}
                       fontWeight="bold"
                       fontSize="16px"
-                      sx={{ m: "2rem 0 0.5rem 3rem" }}
+                      sx={{ m: "0.5rem 0 0.5rem 3rem" }}
                     >
                       {text}
                     </Typography>
@@ -198,12 +198,12 @@ const Sidebar = ({
             </List>
           </Box>
 
-          <Box marginTop="2rem" bottom="0">
+          <Box position="absolute" bottom="0">
             <Divider />
             <FlexBetween
               textTransform="none"
               gap="1rem"
-              m="1.5rem 2rem 1.5rem 3rem"
+              m="1.25rem 2rem 1.25rem 3rem"
             >
               <Box
                 component="img"
